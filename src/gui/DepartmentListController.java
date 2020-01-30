@@ -58,7 +58,7 @@ public class DepartmentListController implements Initializable{
 		
 	}
 	
-	public void UpdateTableView() {
+	public void updateTableView() {
 		if (service == null) {
 			throw new IllegalStateException("O serviço estava vazio");
 		}
