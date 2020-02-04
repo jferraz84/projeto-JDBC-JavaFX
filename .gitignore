@@ -19,6 +19,9 @@ nbbuild/
 dist/
 nbdist/
 
+#Eclipse
+.settings/
+
 # External tool builders
 .externalToolBuilders/
 
