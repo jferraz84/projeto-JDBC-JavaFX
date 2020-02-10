@@ -112,6 +112,7 @@ public class DepartmentListController implements Initializable, DataChangeListen
 			dialogStage.showAndWait();
 
 		} catch (IOException e) {
+			e.printStackTrace();
 			Alerts.ShowAlert("IOException", "Error ao carregar a Tela", e.getMessage(), AlertType.ERROR);
 		}
 	}
